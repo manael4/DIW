@@ -1,0 +1,64 @@
+.navigation {
+    display: block;
+    width: 100px;
+}
+
+
+.navigation2 ul{
+    display: flex;
+}
+
+.mainmenu2 a{
+    background-color: rgb(2, 87, 16);
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.mainmenu2 a:hover{
+    background-color: greenyellow;
+
+}
+
+.mainmenu a{
+    background-color: rgb(2, 87, 16);
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.mainmenu a:hover{
+    background-color: greenyellow;
+
+}
+
+.mainmenu li:hover .submenu{
+    display: block;
+    
+}
+
+.submenu a{
+    background-color: green;
+}
+
+.submenu{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+}
