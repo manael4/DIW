@@ -4,26 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CLUB DEPORTIVO DE VOLEYBALL COMERCIO</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="club-voley/css/styles.css">
   </head>
 
   <body>
     <header>
-      <a href="home.html">
-        <img src="imgs/logo.png" alt="Logo del Club" width="200" length="200" />
-      </a>
       <h1>CLUB DEPORTIVO DE VOLEYBALL COMERCIO</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="paginas/Calendario/calendario.html">Calendario</a></li>
-        <li><a href="paginas/plantilla_socios.html">Plantilla/Socios</a></li>
-        <li><a href="paginas/galeria.html">Galería</a></li>
-        <li><a href="paginas/sobre_nosotros.html">Sobre nosotros</a></li>
-        <li><a href="paginas/contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="menu" role='navigation'>
+      <a href="home.html"><img src="club-voley/imgs/logo.png" alt="Logo del Club" width="200" length="200" /></a>
+      <ol>
+        <li class="menu-item" aria-haspopup="true">
+          <a href="club-voley/paginas/Calendario/calendario.html">Calendario</a>
+          <ol>
+            <li><a href="club-voley/paginas/Calendario/proximos_partidos.html">Próximos partidos</a></li>
+            <li><a href="club-voley/paginas/Calendario/resultados_partidos.html">Resultados partidos</a></li>
+          </ol>
+        </li>
+        <li class="menu-item"><a href="club-voley/paginas/plantilla_socios.html">Plantilla/Socios</a></li>
+        <li class="menu-item"><a href="club-voley/paginas/galeria.html">Galería</a></li>
+        <li class="menu-item" aria-haspopup="true">
+          <a href="club-voley/paginas/sobre_nosotros.html">Sobre nosotros</a>
+          <ol class="sub-menu" aria-label="submenu">
+            <li class="menu-item"><a href="club-voley/paginas/SobreNosotros/historia.html">Historia</a></li>
+            <li class="menu-item"><a href="club-voley/paginas/SobreNosotros/organigrama.html">Organigrama</a></li>
+            <li class="menu-item"><a href="club-voley/paginas/SobreNosotros/patrocinadores.html">Patrocinadores</a></li>
+          </ol>
+        </li>
+        <li class="menu-item"><a href="club-voley/paginas/contacto.html">Contacto</a></li>
+      </ol>
     </nav>
-    <img src="imgs/descarga.jpg" alt="Imagen del Club en Acción" width="100%" />
+    <img src="club-voley/imgs/descarga.jpg" alt="Imagen del Club en Acción" width="100%" />
     <main>
       <h2>Presentación del club</h2>
       <p>
@@ -60,7 +71,7 @@
       <div>
         <article>
           <h3>Noticia 1</h3>
-          <img src="imgs/noticia_1.jpg" alt="Imágen noticia 1" />
+          <img src="club-voley/imgs/noticia_1.jpg" alt="Imágen noticia 1" />
           <p>
             Este mes, nuestro equipo sub-18 ha logrado clasificarse para el
             torneo regional, demostrando un excelente nivel de juego en las
@@ -76,7 +87,7 @@
       <div>
         <article>
           <h3>Noticia 2</h3>
-          <img src="imgs/noticia_2.jpg" alt="Imágen noticia 2" />
+          <img src="club-voley/imgs/noticia_2.jpg" alt="Imágen noticia 2" />
           <p>
             La semana pasada se realizó un evento de integración donde
             participaron todos los socios del club, desde los jugadores más
@@ -95,7 +106,7 @@
             CVC invierte 300 millones de dólares para impulsar a la Federación
             Internacional de Voleibol
           </h3>
-          <img src="imgs/noticia_3.jpg" alt="Imágen noticia 3" />
+          <img src="club-voley/imgs/noticia_3.jpg" alt="Imágen noticia 3" />
           <p>
             CVC Capital Partners suma y sigue en la industria del deporte. El
             fondo de inversión ha firmado un acuerdo con la Federación
