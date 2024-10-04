@@ -1,3 +1,7 @@
+*:hover{
+    cursor: wait;
+}
+
 .navigation {
     display: block;
     width: 100px;
@@ -37,11 +41,19 @@
     
 }
 
+.mainmenu2 li:hover .submenu2{
+    display: block;
+}
+
 .submenu a{
     background-color: green;
 }
 
-.submenu{
+.submenu2 a{
+    background-color: green;
+}
+
+.submenu2{
     display: none;
 }
 
