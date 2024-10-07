@@ -1,0 +1,27 @@
+ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  padding: 0;
+}
+ 
+ol.calendario li {
+    background-color: #339CED;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+li.diasemana{
+    background-color: #5F3EE3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.first-day {
+    grid-column-start: 3
+}
+  
