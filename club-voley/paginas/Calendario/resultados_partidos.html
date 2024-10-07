@@ -13,16 +13,30 @@
         </a>
         <h1>CLUB DEPORTIVO DE VOLEYBALL COMERCIO</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="../plantilla_socios.html">Plantilla/Socios</a></li>
-            <li><a href="../galeria.html">Galería</a></li>
-            <li><a href="../SobreNosotros/sobre_nosotros.html">Sobre nosotros</a></li>
-            <li><a href="../contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <img src="imgs/descarga.jpg" alt="" width="100%">
+    <nav class="menu" role='navigation'>
+        <a href="../../../home.html"><img src="../../imgs/logo.png" alt="Logo del Club" width="200" length="200" /></a>
+        <ol>
+          <li class="menu-item" aria-haspopup="true">
+            <a href="calendario.html">Calendario</a>
+            <ol>
+              <li><a href="proximos_partidos.html">Próximos partidos</a></li>
+              <li><a href="resultados_partidos.html">Resultados partidos</a></li>
+            </ol>
+          </li>
+          <li class="menu-item"><a href="../plantilla_socios.html">Plantilla/Socios</a></li>
+          <li class="menu-item"><a href="../club-voley/paginas/galeria.html">Galería</a></li>
+          <li class="menu-item" aria-haspopup="true">
+            <a href="../SobreNosotros/sobre_nosotros.html">Sobre nosotros</a>
+            <ol class="sub-menu" aria-label="submenu">
+              <li class="menu-item"><a href="../SobreNosotros/historia.html">Historia</a></li>
+              <li class="menu-item"><a href="../SobreNosotros/organigrama.html">Organigrama</a></li>
+              <li class="menu-item"><a href="../SobreNosotros/patrocinadores.html">Patrocinadores</a></li>
+            </ol>
+          </li>
+          <li class="menu-item"><a href="../contacto.html">Contacto</a></li>
+        </ol>
+      </nav>
+    <img src="../../imgs/descarga.jpg" alt="" width="100%">
     <main>
 
     </main>
