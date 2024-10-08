@@ -1,24 +1,11 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: #339CED;
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: #5F3EE3;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-/* Estilos para la barra de navegación*/
+
 .menu {
-  background-color: #333;
+  background-color: #4b2c7e;
   padding: 10px 0;
 }
 
 .menu a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 16px;
   padding: 10px 15px;
@@ -26,8 +13,8 @@
 }
 
 .menu a:hover {
-  background-color: #555; /* Fondo al pasar el cursor */
-  color: #f0f0f0;
+  background-color: #1aaaa3; /* Fondo al pasar el cursor */
+  color: #000000;
 }
 
 .menu img {
@@ -41,6 +28,7 @@
   padding: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .menu-item {
@@ -58,9 +46,9 @@
 .menu-item ol {
   display: none;
   position: absolute;
-  top: 100%; /* Posiciona el submenú justo debajo del padre */
+  top: 100%; 
   left: 0;
-  background-color: #333;
+  background-color: #1959ac;
   padding: 0;
 }
 
@@ -74,7 +62,7 @@
 }
 
 .menu-item ol a:hover {
-  background-color: #555;
+  background-color: #1aaaa3;
 }
 
 /* Estilo para el submenú */
@@ -105,4 +93,31 @@
 
 .sub-menu a:hover {
   background-color: #555;
+}
+
+.logo{
+  display: block;
+  max-width: 100%;
+}
+
+body{
+  background-color: #38ADCA;
+}
+
+/* Estilos para el header */
+header {
+  display: flex; 
+  align-items: center; 
+  background-color: #5F3EE3;
+}
+
+header img {
+  max-width: 100%; /* Asegura que el logo no se agrande más allá de su tamaño natural */
+  margin-right: 20px; 
+}
+
+header h1 {
+  font-size: 52px; 
+  color: #000000; 
+  text-align: center;
 }
