@@ -11,3 +11,98 @@
     font-size: 30px;
     text-align: center;
   }
+/* Estilos para la barra de navegación*/
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.menu a:hover {
+  background-color: #555; /* Fondo al pasar el cursor */
+  color: #f0f0f0;
+}
+
+.menu img {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.menu ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item > a {
+  padding: 10px 20px;
+}
+
+.menu-item[aria-haspopup="true"]:hover > ol {
+  display: block;
+}
+
+.menu-item ol {
+  display: none;
+  position: absolute;
+  top: 100%; /* Posiciona el submenú justo debajo del padre */
+  left: 0;
+  background-color: #333;
+  padding: 0;
+}
+
+.menu-item ol li {
+  width: 200px;
+}
+
+.menu-item ol a {
+  padding: 10px;
+  white-space: nowrap; /* Hace que se muestre en una sola linea*/
+}
+
+.menu-item ol a:hover {
+  background-color: #555;
+}
+
+/* Estilo para el submenú */
+.sub-menu {
+  display: none;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+}
+
+.sub-menu li {
+  display: block;
+}
+
+.sub-menu a {
+  padding: 10px;
+  display: block;
+  width: 200px;
+}
+
+.sub-menu a:hover {
+  background-color: #555;
+}
