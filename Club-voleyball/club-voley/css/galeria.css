@@ -4,12 +4,12 @@
     padding: 10px;
   }
   .grid-item {
-    background-color: #5F3EE3;
+    background-color: greenyellow;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 32px;
     text-align: center;
-    white-space: nowrap;
+    align-content: center;
   }
   h2{
     text-align: center;

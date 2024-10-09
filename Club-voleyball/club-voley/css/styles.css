@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 
 header{margin:0;
@@ -98,17 +99,13 @@ padding:0}
   width: 200px;
 }
 
-.sub-menu a:hover {
-  background-color: #555;
-}
-
 .logo{
   display: block;
   max-width: 100%;
 }
 
 body{
-  background-color: #38ADCA;
+  background-color: #5F3EE3;
   font-family: Arial, sans-serif;
   padding: 20px;
 }
@@ -117,9 +114,12 @@ body{
 header {
   display: flex; 
   align-items: center; 
-  background-color: #5F3EE3;
   margin: 0;
   padding: 0;
+  background: url(../imgs/descarga.jpg);
+  background-size: 100%;
+  background-position: center;
+  
 }
 
 header img {
@@ -131,18 +131,26 @@ header h1 {
   font-size: 52px; 
   color: #000000; 
   text-align: center;
+  font-family: Noto Serif;
 }
 
 h1{
     font-size: 52px;
     text-align: center;
+    font-family: Noto Serif;
 }
 
 h2{
     font-size: 32px;
     text-align: center;
+    font-family: Noto Serif;
 }
 
 .banner{
   height: 300px;
+}
+
+@font-face {
+  font-family: Noto Serif;
+  src: url(../fuentes/Noto\ Serif);
 }

@@ -3,8 +3,19 @@
     max-width: 950px;
     margin: auto;
     padding: 20px;
-    background: white;
+    background: rgba(136, 131, 131, 0.5);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    background-color: #B8B8B8; /* Color de fondo */
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre los elementos */
+    transition: transform 0.3s; /* Animación suave para el hover */
+    text-align: center;
+    font-size: 30px;
 }
 
