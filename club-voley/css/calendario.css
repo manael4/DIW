@@ -21,7 +21,10 @@ li.diasemana{
     text-align: center;
 }
 
-.first-day {
-    grid-column-start: 3
+ol.calendario li.proximoevento{
+    background-color: #C00000;
 }
-  
+
+ol.calendario li.resultado{
+    background-color: green;
+}

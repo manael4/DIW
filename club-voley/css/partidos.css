@@ -1,0 +1,21 @@
+ol{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+li.partidos {
+    background-color: #B8B8B8; /* Color de fondo */
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre los elementos */
+    transition: transform 0.3s; /* Animación suave para el hover */
+    text-align: center;
+    font-size: 30px;
+}
+
+li.partidos:hover {
+    transform: scale(1.1); /* Efecto de ampliación al pasar el mouse */
+}
