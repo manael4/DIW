@@ -146,11 +146,70 @@ h2{
     font-family: Noto Serif;
 }
 
-.banner{
-  height: 300px;
-}
-
 @font-face {
   font-family: Noto Serif;
   src: url(../fuentes/Noto\ Serif);
+}
+
+.intro-section, .objectives-section {
+  margin-bottom: 40px;
+}
+
+/* Estilos para las noticias */
+.news-section {
+  margin: 20px;
+}
+
+.news-item {
+  background-color: #3ab2d6;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 32px;
+  text-align: center;
+  font-family: Noto serif;
+}
+
+.news-item img {
+  width: 40%;
+  height: 40%;
+  border-radius: 4px;
+  display: block;
+  margin-left: 30%;
+}
+
+p {
+  line-height: 1.5;
+  background-color: #3ab2d6;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.objectives-section h3 {
+  font-family: Noto serif;
+  margin-bottom: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+
+p.a {
+  line-height: 1.5;
+  background-color: #3ab2d6;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
