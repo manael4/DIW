@@ -1,0 +1,35 @@
+
+table,th,td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    vertical-align: center;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+thead th{
+    background-color: #009688;
+    color: white;
+    width: 500px;
+}
+
+tbody tr:hover{
+    background-color: #c7e2e0;
+}
+
+thead th:first-child,tbody th{
+    background-color: #009688;
+    color: white;
+    width: 200px;
+}
+
+tbody tr td:nth-child(3)::after{
+    content:"€";
+}
+
+caption.bot{
+    caption-side: bottom;
+    font-size: 20px;
+}
