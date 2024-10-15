@@ -1,0 +1,64 @@
+ul,ol{
+    list-style-position: inside;
+}
+
+.l1{
+    list-style: circle;
+}
+
+.l2{
+    list-style: square;
+}
+
+.l3{
+    list-style: decimal;
+}
+
+.l4{
+    list-style-image: url(https://media.giphy.com/media/tBik70kZOJKOk/giphy.gif);
+}
+
+.l5{
+    list-style-image: url(https://i.pinimg.com/originals/7f/33/5f/7f335f6a84c932db2e63668b20edafef.gif);
+}
+
+.l6{
+    list-style: inside square;
+}
+
+.l7{
+    list-style: circle outside;
+}
+
+.l8{
+    list-style: none;
+}
+
+.l8 li::before{
+    content: '😂​';
+}
+
+.l9{
+    list-style: none;
+}
+
+.l9 li::before{
+    content: "";
+    display: inline-block;
+    background-image: url(https://i.pinimg.com/originals/7f/33/5f/7f335f6a84c932db2e63668b20edafef.gif);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-wrap: nowrap;
+}
+
+.l10{}
+.l11{}
+.l12{}
+.l13{}
+.l14{}
+.l15{}
+.l16{}
+.l17{}
+.l18{}
