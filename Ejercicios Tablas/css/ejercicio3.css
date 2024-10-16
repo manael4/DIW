@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+
+td:nth-child(3) {
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+}
+
+tbody th{
+    width: 160px;
+}
+
+td{
+    text-align: center;
+}
+
+.titulo1{
+    color: green;
+    text-align: center;
+}
+
+.titulo2{
+    color: red;
+    text-align: center;
+}
+
+.titulo3{
+    color: blue;
+    text-align: center;
+}

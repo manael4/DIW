@@ -1,0 +1,36 @@
+main{
+    background-color: lightgray;
+    margin: 30px 20%
+}
+input{
+    float: right;
+    vertical-align: center;
+    position: relative;
+    top: 40px;
+    left: -20px;
+    width: 300px;
+    height: 33px;
+}
+header{
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 0;
+}
+.instaLogo{
+    width: 100px;
+    height: 100px;
+    
+}
+.instaLetra{
+    height: 120px;
+    border-left: 2px solid black;
+}
+.lupa{
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: relative;
+    top: 40px;
+    left: -320px;
+}
+
