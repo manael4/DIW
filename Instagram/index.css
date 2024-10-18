@@ -28,14 +28,17 @@ header {
   border-left: 2px solid black;
 }
 .lupa {
-  height: 35px;
-  width: 35px;
+  height: 28px;
+  width: 28px;
   float: right;
   position: relative;
-  top: 25px;
-  left: -50px;
+  top: 29px;
+  left: -70px;
+  opacity: 0.5;
 }
-
+a:link {
+  text-decoration: none;
+}
 header div {
   background-color: white;
   padding-right: 19%;
@@ -185,6 +188,8 @@ div.d4b{
   right: 130px;
   margin-top: 50px;
   text-wrap: nowrap;
+  color: black;
+  
 }
 .span4a {
   color: darkgrey;
