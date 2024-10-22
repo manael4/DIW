@@ -50,3 +50,25 @@ div {
     margin: 10px 0px 0px 5px;
     border: 1px solid black;
 }
+.colores li:nth-child(1) {
+  background: url(imgs/textura1.jpg);
+}
+
+.colores li:nth-child(2) {
+  background: url(imgs/textura2.jpg);
+}
+
+.colores li:nth-child(3) {
+  background: url(imgs/textura3.jpg);
+}
+
+.colores li:nth-child(4) {
+  background: url(imgs/textura4.jpg);
+}
+
+.colores li:nth-child(5) {
+  background: url(imgs/textura5.jpg);
+}
+  
+  
+  
