@@ -15,7 +15,6 @@
                 <li><a href="#cine">Cine del terror</a></li>
                 <li><a href="#peliculas">Listado de películas</a></li>
                 <li><a href="#entradas">Entradas</a></li>
-                <li><a href="#galeria">Galería</a></li>
                 <li><a href="#reserva">Contacto/Reserva</a></li>
             </ul>
         </nav>
@@ -31,15 +30,73 @@
         </section>
         <section id="peliculas">
             <h1>Listado de Películas</h1>
-            <p></p>
+            <div>
+                <img src="imgs/elRespandor.jpg" alt="El Resplandor portada">
+                <h2>El Resplandor</h2>
+                <p>Duración: 146 min</p>
+                <p>Sala A</p>
+                <p>Hora: 17:00, 20:00, 23:00,</p>
+                <p>Edad recomendada: +16 años</p>
+                <h3>Sinopsis</h3>
+                <p>Jack Torrance es un hombre que se muda con su familia a un hotel aislado que debe cuidar, con la esperanza de salir del bloqueo creativo de su escritura. Mientras Jack no puede escapar del bloqueo, las visiones psíquicas de su hijo van en aumento.</p>
+            </div>
+            <div>
+                <img src="imgs/salemsLot.jpg" alt="El misterio de Salem's Lot portada">
+                <h2>El misterio de Salem's Lot</h2>
+                <p>Duración: 112 min</p>
+                <p>Sala B</p>
+                <p>Horas: 17:00, 19:00, 21:00, 23:00, 1:00</p>
+                <p>Edad recomendada: +12 años</p>
+                <h3>Sinopsis</h3>
+                <p>El escritor Ben Mears regresa a Jerusalem's Lot, la casa de su infancia, en busca de inspiración para su próximo libro. Allí descubre que su ciudad natal está siendo presa de un vampiro sediento de sangre.</p>
+            </div>
+            <div>
+                <img src="imgs/strangerInTheWoods.jpg" alt="Stranger in the woods portada">
+                <h2>Stranger in the woods</h2>
+                <p>Duración: 84 min</p>
+                <p>Sala C</p>
+                <p>Horas: 17:00, 19:00, 21:00, 23:00, 1:00, 2:30</p>
+                <p>Edad recomendada: +15 años</p>
+                <h3>Sinopsis</h3>
+                <p>Olivia junto con seis amigos deciden irse de vacaciones junto a un lago, después de haber vivido un evento traumático, donde casi muere ahogada por una cortadura en la muñeca, tras asistir al funeral de su prometido.</p>
+            </div>
+            <div>
+                <img src="imgs/you_shall_not_sleep_tonight.jpg" alt="You Shall Not Sleep Tonight portada">
+                <h2>You Shall Not Sleep Tonight</h2>
+                <p>Duración: 80 min</p>
+                <p>Sala D</p>
+                <p>Horas: 17:00, 19:00, 21:00, 23:00, 1:00</p>
+                <p>Edad recomendada: +13 años</p>
+                <h3>Sinopsis</h3>
+                <p>Un niño es perseguido por pesadillas en las que un monstruo acecha dentro del armario. Para su alivio, su padre le ayuda a enfrentarse a sus miedos.</p>
+            </div>
+            <div>
+                <img src="imgs/contagionoffear.jpg" alt="Contagion of fear portada">
+                <h2>Contagion of fear</h2>
+                <p>Duración: 94 min</p>
+                <p>Sala E</p>
+                <p>Horas: 17:00, 19:00, 21:00, 23:00, 1:00</p>
+                <p>Edad recomendada: +16 años</p>
+                <h3>Sinopsis</h3>
+                <p>Un catastrófico descarrilamiento de tren sume a la ciudad en una espiral de caos. Pero el descarrilamiento es sólo el principio. Un ataque biológico con gas provoca el colapso y la muerte de los supervivientes en cuestión de minutos. Y la enfermedad se extiende rápidamente.</p>
+            </div>
+            <div>
+                <img src="imgs/outofdarkness.jpg" alt="Out of Darkness portada">
+                <h2>Out of Darkness</h2>
+                <p>Duración: 87 min</p>
+                <p>Sala F</p>
+                <p>Horas: 17:00, 20:00, 23:00, 2:00</p>
+                <p>Edad recomendada: 13-18 años</p>
+                <h3>Sinopsis</h3>
+                <p>Hace 45.000 años, un grupo de humanos desembarca en una nueva tierra en la que asentarse. Sin embargo, allá encuentran un horror que jamás hubieran podido imaginar.</p>
+            </div>
         </section>
         <section id="entradas">
             <h1>Entradas</h1>
-            <p></p>
-        </section>
-        <section id="galeria">
-            <h1>Galería</h1>
-            <p></p>
+            <h2>Mayores de 18 años</h2>
+            <p>5€ por película o 15€ por todas</p>
+            <h2>Menores de 18 años</h2>
+            <p>4€ por película o 12€ por todas</p>
         </section>
         <section id="reserva">
             <h1>Contacto/Reserva</h1>
@@ -48,7 +105,7 @@
                     <legend>Datos personales</legend>
                     <label for="nombre">Nombre <input type="text" id="nombre" required></label>
                     <label for="ape">Apellidos <input type="text" id="ape" required></label>
-                    <label for="dni">DNI <input type="tel" maxlength="9" id="dni" required></label>
+                    <label for="dni">DNI <input type="text" maxlength="9" id="dni" required></label>
                 </fieldset>   
                 <fieldset> 
                     <legend>Datos de contacto</legend>
@@ -57,15 +114,19 @@
                 </fieldset>
                 <fieldset>
                     <legend>Datos de la reserva</legend>
+                    <label for="resplandor">El resplandor <input type="checkbox" name="ElResplandor" value="resplandor" id="resplandor"></label>
+                    <label for="salemslot">El misterio de Salem's Lot <input type="checkbox" name="SalemsLot" value="salemslot" id="salemslot"></label>
+                    <label for="strangerinthewoods">Stranger in the woods <input type="checkbox" name="StrangerInTheWoods" value="strangerinthewoods" id="strangerinthewoods"></label>
+                    <label for="notsleep">You Shall Not Sleep Tonight <input type="checkbox" name="YouShallNotSleepTonight" value="notsleep" id="notsleep"></label>
+                    <label for="contagionoffear">Contagion of fear <input type="checkbox" name="ContagionOfFear" value="contagionoffear" id="contagionoffear"></label>
+                    <label for="outofdarkness">Out of darkness <input type="checkbox" name="OutOfDarkness" value="outofdarkness" id="outofdarkness"></label>
                 </fieldset>
                 <fieldset>
                     <legend>Comentarios o Peticiones adicionales</legend>
-                    <textarea name="" id="" rows="12" cols="90"></textarea>
+                    <textarea name="ComentariosOPeticiones" id="comentarios" rows="12" cols="90"></textarea>
                 </fieldset>
-                
                     <input type="reset">
                     <input type="submit" onclick="alert('Datos de la reserva enviados')">
-                
             </form>
         </section>
     </main>
