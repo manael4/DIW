@@ -42,11 +42,30 @@
             <p></p>
         </section>
         <section id="reserva">
+            <h1>Contacto/Reserva</h1>
             <form>
-                <caption>Contacto/Reserva</caption>
                 <fieldset>
-                    
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre <input type="text" id="nombre" required></label>
+                    <label for="ape">Apellidos <input type="text" id="ape" required></label>
+                    <label for="dni">DNI <input type="tel" maxlength="9" id="dni" required></label>
+                </fieldset>   
+                <fieldset> 
+                    <legend>Datos de contacto</legend>
+                    <label for="tfno">Teléfono <input type="tel" maxlength="9" id="tfno" required></label>
+                    <label for="email">Email <input type="email" id="email" required></label>
                 </fieldset>
+                <fieldset>
+                    <legend>Datos de la reserva</legend>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios o Peticiones adicionales</legend>
+                    <textarea name="" id="" rows="12" cols="90"></textarea>
+                </fieldset>
+                
+                    <input type="reset">
+                    <input type="submit" onclick="alert('Datos de la reserva enviados')">
+                
             </form>
         </section>
     </main>
