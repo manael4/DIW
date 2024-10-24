@@ -1,0 +1,56 @@
+header{
+    background: url(../imgs/banner.jpg);
+    background-size: cover;
+    height: 200px;
+}
+body{
+    background-color: grey;
+}
+
+nav li{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li a:hover{
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orangered;
+    display: flex;
+    justify-content: center; /* Centra el menú */
+    
+}
+nav{
+    
+}
+@font-face {
+    font-family: 'Halloween Morning';
+    src: url(../fuentes/Halloween\ Morning.ttf);
+}
+header h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 80px;
+    color: #8B0000;
+    font-family: 'Halloween Morning';
+}
+h1{
+    font-size: 42px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 30px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+ 
