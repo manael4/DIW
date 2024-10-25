@@ -1,56 +1,144 @@
-header{
-    background: url(../imgs/banner.jpg);
-    background-size: cover;
-    height: 200px;
-}
-body{
-    background-color: grey;
-}
-
-nav li{
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-li a:hover{
-    
-}
-nav ul {
-    list-style-type: none;
+*{
     margin: 0;
     padding: 0;
-    background-color: orangered;
-    display: flex;
-    justify-content: center; /* Centra el menú */
-    
 }
-nav{
-    
+header {
+  background: url(../imgs/banner.gif);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
-@font-face {
-    font-family: 'Halloween Morning';
-    src: url(../fuentes/Halloween\ Morning.ttf);
-}
-header h1{
-    text-align: center;
-    padding-top: 30px;
-    font-size: 80px;
-    color: #8B0000;
-    font-family: 'Halloween Morning';
-}
-h1{
-    font-size: 42px;
-}
-h2{
-    font-size: 36px;
-}
-h3{
-    font-size: 30px;
-}
-a:link {
-    text-decoration: none;
-    color: black;
+body {
+  background: url(../imgs/fondo.gif);
+  background-size: cover;
+
 }
 
- 
+li a {
+  display: inline-block;
+  height: 45px;
+  width: 150px;
+  align-content: center;
+}
+a span {
+  margin-top: 10px;
+  font-size: 17px;
+}
+li a:hover {
+  background-color: #8b0000;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: orangered;
+  display: flex;
+  text-align: center;
+  justify-content: center; /* Centra el menú */
+  align-items: center;
+}
+@font-face {
+  font-family: "Halloween Morning";
+  src: url(../fuentes/Halloween\ Morning.ttf);
+}
+header h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 80px;
+  color: #8b0000;
+  font-family: "Halloween Morning";
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 30px;
+  margin: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#peliculas {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.peliculasitem {
+  background-color: brown;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 32px;
+  text-align: center;
+  margin: 1.5px;
+  border-radius: 25px;
+}
+div img {
+  width: 300px;
+  height: 400px;
+  vertical-align: top;
+}
+#peliculas div {
+  height: 1000px;
+}
+#peliculas div p {
+  margin: 0;
+  padding: 0;
+}
+#inicio{
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(121, 6, 121);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#inicio h1{
+    margin: 10px;
+}
+#inicio p{
+    font-size: 17px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 25px;
+}
+
+#entradas{
+    background: url(../imgs/ticket.png);
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+#reserva{
+    background-color: rgba(221, 75, 49, 0.514);
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    
+}
+fieldset{
+    padding: 10px;
+}
+footer{
+    background-color: darkslategray;
+    margin-top: 20px;
+    display: block;
+    height: 500px;
+}
