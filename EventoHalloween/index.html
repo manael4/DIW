@@ -34,6 +34,8 @@
                 participar en un sorteo especial con increíbles premios. ¡No te pierdas esta noche llena de sustos,
                 sorpresas y pura adrenalina!
             </p>
+            <h3>Dirección</h3>
+            <p>Calle Bretón de los Herreros, 11, 26001 Logroño, La Rioja</p>
         </section>
         <section id="peliculas">
             <div class="peliculasitem">
@@ -143,43 +145,36 @@
         <section id="reserva">
             <h1>Contacto/Reserva</h1>
             <form>
-                <fieldset>
-                    <legend>Datos personales</legend>
+                <fieldset id="datosPersonales">
+                    <legend><h3>Datos personales</h3></legend>
                     <label for="nombre">Nombre <input type="text" id="nombre" required></label>
                     <label for="ape">Apellidos <input type="text" id="ape" required></label>
                     <label for="dni">DNI <input type="text" maxlength="9" id="dni" required></label>
                 </fieldset>
-                <fieldset>
-                    <legend>Datos de contacto</legend>
+                <fieldset id="datosContacto">
+                    <legend><h3>Datos de contacto</h3></legend>
                     <label for="tfno">Teléfono <input type="tel" maxlength="9" id="tfno" required></label>
                     <label for="email">Email <input type="email" id="email" required></label>
                 </fieldset>
-                <fieldset>
-                    <legend>Datos de la reserva</legend>
+                <fieldset id="datosReserva">
+                    <legend><h3>Datos de la reserva</h3></legend>
                     <label for="entradamenores">Entrada para menores
-                        <select id="entradamenores">
-                            <option value="menorninguna">Ninguna</option>
-                            <option value="menorgeneral">Entrada general</option>
-                            <option value="menorVIP">Entrada VIP</option>
-                        </select>
+                        <input type="number" name="entradaMenores" value="entradaMenores" id="entradamenores">
+                        <label for="checkMenoresVIP"> VIP <input class="" type="checkbox" name="checkMenoresVIP" value="checkMenoresVIP" id="checkMenoresVIP"></label>
                     </label>
+                    <br>
                     <label for="entradamayores">Entrada para mayores
-                        <select id="entradamayores">
-                            <option value="mayorninguna">Ninguna</option>
-                            <option value="mayorgeneral">Entrada general</option>
-                            <option value="mayorVIP">Entrada VIP</option>
-                        </select>
+                        <input type="number" name="entradaMayores" value="entradaMayores" id="entradamayores">
+                        <label for="checkMayoresVIP"> VIP <input class="" type="checkbox" name="checkMayoresVIP" value="checkMayoresVIP" id="checkMayoresVIP"></label>
                     </label>
+                    <br>
                     <label for="entradafamiliar">Entrada familiar
-                        <select id="entradafamiliar">
-                            <option value="familiarninguna">Ninguna</option>
-                            <option value="familiargeneral">Entrada general</option>
-                            <option value="familiarVIP">Entrada VIP</option>
-                        </select>
+                        <input type="number" name="entradasFamiliares" value="entradasFamiliares" id="entradafamiliar">
+                        <label for="checkFamiliarVIP"> VIP <input class="" type="checkbox" name="familiarVIP" value="familiarVIP" id="checkFamiliarVIP"></label>
                     </label>
                 </fieldset>
-                <fieldset>
-                    <legend>Comentarios o Peticiones adicionales</legend>
+                <fieldset id="comentariosYPeticiones">
+                    <legend><h3>Comentarios o Peticiones adicionales</h3></legend>
                     <textarea name="ComentariosOPeticiones" id="comentarios" rows="12" cols="90"></textarea>
                 </fieldset>
                 <input type="reset">
@@ -188,8 +183,7 @@
         </section>
     </main>
     <footer>
-        <p>Hecho por: Ángel Barrón Martínez</p>
-        <p><a href="guiaEstilos.html">Guía de estilos de la página</a></p>
+        <p class="copy">&copy; Ayuntamiento. Todos los derechos reservados</p><p>Hecho por: Ángel Barrón Martínez</p><p><a class="estilos" href="guiaEstilos.html">Guía de estilos de la página</a></p>
     </footer>
 </body>
 

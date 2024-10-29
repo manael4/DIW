@@ -94,7 +94,7 @@ div img {
 #inicio{
     text-align: center;
     border: 2px solid black;
-    background-color: rgb(121, 6, 121);
+    background-color: rgb(56, 99, 134);
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -124,7 +124,7 @@ div img {
     padding-bottom: 50px;    
 }
 #reserva{
-    background-color: rgba(221, 75, 49, 0.514);
+    background-color: rgba(221, 75, 49, 0.815);
     margin-left: 15%;
     margin-right: 15%;
     align-content: center;
@@ -139,6 +139,56 @@ fieldset{
 footer{
     background-color: darkslategray;
     margin-top: 20px;
-    display: block;
-    height: 500px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+#entradamayores{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+input{
+  border: rgb(6, 42, 121) solid 2px;
+  border-radius: 5px;
+  background-color: rgb(172, 117, 117);
+}
+
+input:focus {
+  background-color: aqua;
+  border: rgb(6, 42, 121) solid 2px;
+  border-radius: 5px;
+}
+
+input:hover {
+  border: rgb(6, 42, 121) solid 2px;
+  border-radius: 5px;
+  background-color: rgb(163, 61, 61);
+}
+textarea{
+  border: rgb(6, 42, 121) solid 2px;
+  border-radius: 5px;
+  background-color: rgb(172, 117, 117);
+}
+
+textarea:focus {
+  background-color: rgb(56, 85, 94);
+  border: rgb(6, 42, 121) solid 2px;
+  border-radius: 5px;
+}
+
+textarea:hover {
+  border: rgb(6, 42, 121) solid 2px;
+  border-radius: 5px;
+  background-color: rgb(163, 61, 61);
+}
+
+.copy{
+  color: whitesmoke;
+}
+.estilos{
+  color: dodgerblue;
 }
