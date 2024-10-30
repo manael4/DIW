@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #8b0000;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: "Halloween Morning", sans-serif;
+}
+h1, h2, h3 {
+    margin: 20px 0;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 36px;
+    color: orangered;
+}
+h3 {
+    font-size: 30px;
+    color: darkslategray;
+}
+
+#colores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.color {
+    width: 120px;
+    height: 120px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+#texto-enlaces a.enlace {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: rgb(172, 117, 117);
+    border-radius: 5px;
+    margin: 5px;
+}
+#texto-enlaces a.enlace.hover:hover {
+    background-color: #8b0000;
+    color: white;
+}
+
+.boton {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton.hover:hover {
+    background-color: #8b0000;
+}
+.boton.focus:focus {
+    background-color: aqua;
+    outline: none;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: rgba(221, 75, 49, 0.815);
+    padding: 15px;
+    border-radius: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(6, 42, 121);
+    border-radius: 5px;
+    background-color: rgb(172, 117, 117);
+    color: black;
+}
+input:focus, textarea:focus {
+    background-color: aqua;
+}
