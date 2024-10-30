@@ -60,9 +60,11 @@ h3 {
   font-size: 30px;
   margin: 10px;
 }
+h4{
+  font-size: 26px;
+}
 a:link {
   text-decoration: none;
-  color: black;
 }
 
 #peliculas {
@@ -158,7 +160,7 @@ input{
 }
 
 input:focus {
-  background-color: aqua;
+  background-color: rgb(56, 85, 94);
   border: rgb(6, 42, 121) solid 2px;
   border-radius: 5px;
 }
@@ -189,6 +191,33 @@ textarea:hover {
 .copy{
   color: whitesmoke;
 }
-.estilos{
+.enlace{
   color: dodgerblue;
+}
+.enlace:hover{
+  color: rgb(56, 85, 94);
+}
+.enlace:visited{
+  color: orangered;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8b0000;
+}
+button:focus {
+  background-color: aqua;
+  outline: none;
+}
+.listado{
+  list-style-image: url(../imgs/download.jpeg);
+  list-style-position: inside;
 }

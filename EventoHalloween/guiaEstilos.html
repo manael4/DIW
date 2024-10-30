@@ -25,18 +25,25 @@
         <!-- Tipografía y encabezados -->
         <section id="tipografia">
             <h2>Tipografía y Encabezados</h2>
-            <h1>Encabezado H1 - Cine del terror</h1>
-            <h2>Encabezado H2 - Listado de películas</h2>
-            <h3>Encabezado H3 - Sinopsis</h3>
+            <h1>Encabezado H1 - Cine del terror 42px</h1>
+            <h2>Encabezado H2 - Listado de películas 36px</h2>
+            <h3>Encabezado H3 - Sinopsis 30px</h3>
+            <h4>Encabezado H4 - Dirección 26px</h4>
             <p>Fuente principal: Arial o fuente personalizada "Halloween Morning" para encabezados.</p>
         </section>
 
         <!-- Texto y Enlaces -->
         <section id="texto-enlaces">
             <h2>Texto y Enlaces</h2>
-            <p>Este es un párrafo de ejemplo para mostrar el tamaño y el color de la fuente.</p>
             <a href="#" class="enlace">Enlace estándar</a>
             <a href="#" class="enlace hover">Enlace al pasar el cursor (hover)</a>
+            <a href="#" class="enlace visited">Enlace al pasar el cursor (visited)</a>
+        </section>
+
+        <section id="imagenes">
+            <h2>Imágenes</h2>
+            <p>Portadas de películas de terror</p>
+            <img src="imgs/strangerInTheWoods.jpg" alt="">
         </section>
 
         <!-- Botones -->
@@ -53,8 +60,16 @@
             <form>
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre">
+                <label for="nombre2">Nombre hover</label>
+                <input type="text" id="nombre2" class="formhover">
+                <label for="nombre3">Nombre focus</label>
+                <input type="text" id="nombre3" class="formfocus">
                 <label for="comentarios">Comentarios</label>
                 <textarea id="comentarios" rows="4"></textarea>
+                <label for="comentarios2">Comentarios hover</label>
+                <textarea id="comentarios2" rows="4" class="formhover"></textarea>
+                <label for="comentarios3">Comentarios focus</label>
+                <textarea id="comentarios3" rows="4" class="formfocus"></textarea>
             </form>
         </section>
     </main>
