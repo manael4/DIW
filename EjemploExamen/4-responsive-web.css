@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+header h1 {
+  text-align: center;
+}
+nav {
+  background-color: #a99f4e;
+}
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 10px;
+  margin-right: 20px;
+}
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+main{
+    padding: 2%;
+    padding-left: 5%;
+    width: 75%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 40px;
+}
+.tit_list{
+    text-decoration: underline wavy 2px #797137;
+}
+aside{
+    width: 20%;
+    padding: 20px;
+    float: right;
+    background-color: #eee;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+section{
+    float: left;
+    width: 50%;
+}
+section ul{
+    list-style-type: circle;
+}
+aside ul{
+    list-style: none;
+}
+aside ul li::before{
+    content: '😂😂';
+}
