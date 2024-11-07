@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Audi";
+    src: url(auditype_extendedbold.ttf);
+}
+*{
+    font-family: "Audi";
+    font-size: 15px;
+}
+img{
+    margin-left: 4%;
+    margin-top: 7px;
+    float: left;
+    width: 4.1%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+li{
+    padding: 7.5px;
+    margin-right: 2%;
+    text-wrap: nowrap;
+    
+}
+img:nth-of-type(2){
+    opacity: 30%;
+    float: right;
+    width: 1.5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color: grey;
+}
+a:visited:hover{
+    color: black;
+}
