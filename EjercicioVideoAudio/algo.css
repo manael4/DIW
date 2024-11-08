@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    text-align: center;
+    color: black;
+    font-size: 46px;
+}
+
+section{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    margin-top: 10px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
+body{
+    background: url(descarga.jpg);
+    background-size: cover;
+}
+article{
+    width: 96%;
+    margin: 2%;
+}
+video{
+    width: 100%;
+}
+iframe{
+    width: 43.2em;
+    height: 25em;
+}
