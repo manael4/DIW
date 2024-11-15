@@ -1,0 +1,81 @@
+:root{
+    --azulOscuro:#4F5D95;
+    --azulClaro:#6c88c4;
+    --blanco:#c4c4c4;
+    --grisOscuro:#2E2E2E;
+    --amarillo:#FC0;
+    --verde:#A3D977;
+    --rojo:#E57373;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d4;
+}
+body{
+    background-color: var(--blanco);
+}
+header{
+    background-color: var(--azulOscuro);
+    padding: 1.25%;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+section{
+    background-color: var(--azulClaro);
+    padding: 1%;
+}
+.introduccion{
+    width: 75%;
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+.introduccion p{
+    padding: 0.75%;
+}
+.videoPersonal{
+    float: left;
+    width: 45%;
+    margin-left: 2.5%;
+    
+}
+.videoExterno{
+    float: right;
+    width: 45%;
+    margin-right: 2.5%;
+}
+footer{
+    background-color: var(--azulOscuro);
+    display: flex;
+    float: left;
+    width: 100%;
+    justify-content: center;
+}
+footer div{
+    display: flex;
+    gap: 30%;
+    width: 60%;
+}
+iframe {
+    height: 25vw;
+    width: 90%;
+    resize: both;
+    overflow: auto;
+}
+
