@@ -44,4 +44,3 @@ function togglePlayPause() {
 
 
 playPauseBtn.addEventListener('click', togglePlayPause);
-subtitleBtn.addEventListener('click', toggleSubtitles);
