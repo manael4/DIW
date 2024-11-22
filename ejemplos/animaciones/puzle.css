@@ -1,0 +1,51 @@
+
+div{
+    position: relative;
+    overflow: hidden;
+}
+.div1 img{
+    position: absolute;
+    opacity: 0.3;
+    transition: opacity 1s;
+}
+.div2 img{
+    position: absolute;
+}
+.div1 img:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.i2{
+    left:220px;
+}
+.i3{
+    top: 224px;
+    left: 29.5px;
+}
+.contenedor2{
+    border: 1px solid black;
+    width: 550px;
+    height: 500px;
+}
+.j1{
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 3s linear 0.1s;
+}
+.j2{
+    top: 0;
+    left: 220px;
+    transform: translateX(100%);
+    transition: transform 3s linear 0.1s;
+}
+.j3{
+    top: 224px;
+    left: 30px;
+    transform: translateY(100%);
+    transition: transform 3s linear 0.1s;
+}
+.contenedor2:hover .j1,.contenedor2:hover .j2,.contenedor2:hover .j3{
+    transform: translateX(0px) translateY(0px);
+}
+

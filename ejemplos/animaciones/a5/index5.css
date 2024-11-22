@@ -1,0 +1,11 @@
+button{
+    color: blue;
+    width: 10vw;
+    height: 10vw;
+    transition: width 20s ease-in 1s;
+}
+button:hover{
+    color: purple;
+    width: 100vw;
+    transition: width 5s ease-out 0.1s, color 3s ease-out 1s;
+}

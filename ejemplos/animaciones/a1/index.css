@@ -1,0 +1,50 @@
+article{
+    flex: 1;
+}
+
+.division article div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 1px solid yellowgreen;
+    margin: 20px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin: 20px;
+    display: block;
+}
+
+.caja-trans{
+    transform: translate(200px, 10px);
+}
+
+.img-trans{
+    transform: translate(200px, 10px);
+}
+
+.caja-rot2d{
+    transform: rotate(45deg) scale(1.5);
+}
+
+.img-rot2d{
+    transform: rotate(45deg) scale(1.5);
+}
+
+.caja-rot3d{
+    transform: rotateX(60deg) rotateY(60deg);
+}
+
+.img-rot3d{
+    transform: rotateY(60deg) rotateX(60deg);
+}
+
+.caja-skew{
+    transform: skewX(20deg) skewY(49deg);
+}
+
+.img-skew{
+    transform: skewX(49deg) skewY(20deg);
+}

@@ -1,0 +1,59 @@
+article{
+    flex: 1;
+}
+
+.division{
+    border-bottom: 2px solid peru;
+}
+
+.division article div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 1px solid yellowgreen;
+    margin: 20px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin: 20px;
+    display: block;
+}
+
+.caja-trans, .img-translate, .caja-rot, .img-rot, .caja-3d, .img-3d, .img-skew, .caja-skew{
+    transition: 49s;
+}
+
+.img-translate:hover{
+    transform: translate(200px, 40px);
+    
+}
+
+.caja-trans:hover{
+    transform: translate(249px, 10px);
+}
+
+.caja-rot:hover{
+    transform: rotate(49deg) scale(1.5);
+}
+
+.img-rot:hover{
+    transform: rotate(49deg) scale(1.49);
+}
+
+.caja-3d:hover{
+    transform: rotateX(49deg);
+}
+
+.img-3d:hover{
+    transform: rotateY(49deg);
+}
+
+.caja-skew:hover{
+    transform: skewX(49deg);
+}
+
+.img-skew:hover{
+    transform: skewY(49deg);
+}
