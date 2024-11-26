@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px pink solid;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-self: center;
+}
+.superior img:first-of-type{
+    width: 200px;
+}
+.superior img:nth-of-type(2){
+    width: 420px;
+}
+.inferior>img{
+    width: 200px;
+    float: left;
+}
+.bloqueInf{
+    display: flex;
+    width: 60%;
+    float: left;
+    width: 420px;
+}
+.bloqueInf img{
+    width: 100%;
+}
+.arriba{
+    width: 100%;
+}
+.abajo{
+    width: 100%;
+}
+
