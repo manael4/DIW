@@ -1,41 +1,127 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Índice de Carpetas</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header>
-        <h1>Currículum Vitae</h1>
-        <section>
-            <h2>Nombre Completo</h2>
-            <p>Ángel Barrón Martínez</p>
-            <h2>Información de Contacto</h2>
-            <ul>
-                <li>Email: bmangel2004@gmail.com</li>
-            </ul>
-            <h2>Experiencia Profesional</h2>
-            <p>Ninguna actualmente</p>
-            <h2>Educación</h2>
-            <p>Titulación Superior de Desarrollo de Aplicaciones Web</p>
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Java</li>
-                <li>Experiencia con PHP y bases de datos MySQL</li>
-            </ul>
-        </section>
+<html lang="es-ES">
+  <!-- Gris rgb(51,51,51) -->
+  <!-- GrisClaro rgb(193, 193,193) -->
+  <!-- Azul rgb(32,226,255) -->
+  <!-- AzulOscuro rgb(40,113,247) -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Entregas</title>
+  </head>
+  <body>
+    <header class="banner">
+      <div class="presentacion">
+        <p class="nombre">Ángel</p>
+        <p class="apellido">Barrón</p>
+      </div>
+      <div class="titulos">
+        <p class="tituloPar">Estudiante de desarrollo web</p>
+      </div>
     </header>
-    <main>
-        <h2>Enlaces a Carpetas</h2>
-        <ul>
-            <li><a href="./Club-volleyball/">Club-volleyball</a></li>
-            <li><a href="./EventoHalloween/">EventoHalloween</a></li>
-            <li><a href="./Instagram/">Instagram</a></li>
-            <li><a href="./PracticaTema4/">PracticaTema4</a></li>
+    <div class="container">
+      <main>
+        <h2 class="tituloMain">ESTUDIOS</h2>
+        <div class="estudios">
+          <div class="bloqueEstudios">
+            <h3 class="tituloEstudios">
+              Grado superior de desarrollo de aplicaciones web.
+            </h3>
+            <p class="centro">IES Comercio</p>
+            <p class="fechas">2023-2025</p>
+            <p class="explicacion">
+              Grado superior de desarrollo de aplicaciones web en curso.
+            </p>
+          </div>
+        </div>
+        <div class="experiencia">
+          <h2 class="tituloMain">EXPERIENCIA</h2>
+          <p>Ninguna actualmente</p>
+        </div>
+      </main>
+      <aside>
+        <div class="contacto">
+          <h2 class="tituloAside">CONTACTO</h2>
+          <div>
+            <h3>Correo</h3>
+            <p>bmangel2004@gmail.com</p>
+          </div>
+          <div>
+            <h3>Github</h3>
+            <p><a href="https://github.com/manael4"></a></p>
+          </div>
+        </div>
+        <div class="perfil">
+          <h2 class="tituloAside">PERFIL</h2>
+          <p>
+            Estudiante de Desarrollo de Aplicaciones Web desde terminar bachillerato.
+            Tengo 20 años, 
+          </p>
+        </div>
+        <div class="aptitudes">
+          <h2 class="tituloAside">APTITUDES</h2>
+          <ul class="listaAptitudes">
+            <li class="aptitud">Java</li>
+            <li class="aptitud">Git/GitHub</li>
+            <li class="aptitud">PHP</li>
+            <li class="aptitud">SQL</li>
+            <li class="aptitud">JavaScript</li>
+            <li class="aptitud">Linux</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <div id="abajo">
+      <div class="entregas">
+        <h2 class="tituloFooter">Practicas DIW</h2>
+        <ul class="proyectos">
+          <div id="figures">
+            <figure id="paginaDeportiva">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+              <figcaption>
+                <span class="titulo">Página deportes:</span> Práctica de crear
+                un sitio web orientado a un club de waterpolo
+              </figcaption>
+            </figure>
+            <figure id="paginaInstagram">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+              <figcaption>
+                <span class="titulo">Replica instagram:</span> Práctica de
+                replicar una captura de instagram de una
+                fotografía subida por una cuenta
+              </figcaption>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="" alt="">
+                </a>
+              <figcaption>
+                <span class="titulo">Página halloween:</span> Práctica de crear
+                una página web para promocionar un evento de halloween, en este
+                caso un cine del terror
+              </figcaption>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="" alt="">
+                </a>
+              <figcaption>
+                <span class="titulo">Práctica tema 4:</span> Práctica de crear
+                una página web educativa para estudiantes de la ESO/Bachiller 
+              </figcaption>
+            </figure>
+          </div>
         </ul>
-    </main>
-</body>
+      </div>
+      <div class="proyectos">
+        <p>Ninguno</p>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
 </html>
