@@ -7,33 +7,38 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Memory</h1>
     <div class="content">
-        <div class="carta">
+        <div id="sentido" class="carta" onclick="girarCarta(this)">
             <div class="delante"></div>
             <div class="detras c1"></div>
         </div>
-        <div class="carta">
+        <div id="masdos" class="carta" onclick="girarCarta(this)">
             <div class="delante"></div>
             <div class="detras c2"></div>
         </div>
-        <div class="carta">
+        <div id="cambioColor" class="carta" onclick="girarCarta(this)">
             <div class="delante"></div>
             <div class="detras c3"></div>
         </div>
-    </div>
-    <div class="content">
-        <div class="carta">
+        <div id="masdos" class="carta" onclick="girarCarta(this)">
+            <div class="delante"></div>
+            <div class="detras c2"></div>
+        </div>
+        <div id="cambioColor" class="carta" onclick="girarCarta(this)">
+            <div class="delante"></div>
+            <div class="detras c3"></div>
+        </div>
+        <div id="sentido" class="carta" onclick="girarCarta(this)">
             <div class="delante"></div>
             <div class="detras c1"></div>
         </div>
-        <div class="carta">
-            <div class="delante"></div>
-            <div class="detras c2"></div>
-        </div>
-        <div class="carta">
-            <div class="delante"></div>
-            <div class="detras c3"></div>
-        </div>
     </div>
+    <div>
+        <div id="intentos">Intentos: 0</div>
+        <div id="fallos">Fallos: 0</div>
+        <div id="parejas">Parejas: 0</div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

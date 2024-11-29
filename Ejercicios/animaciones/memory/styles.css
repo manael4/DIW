@@ -40,8 +40,8 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     z-index: 1;
-    transition: all 1s;
-    transform: rotateY(0deg);
+    opacity: 0.3;
+    transition: transform 0.5s, z-index 0.5s 0.25s;
 }
 
 .detras{
@@ -50,16 +50,28 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     z-index: 0;
-    transition: all 1s;
     transform: rotateY(180deg);
-}
-
-.carta:hover .detras{
-    z-index: 1;
-    transform: rotateY(0deg);
+    opacity: 0;
+    transition: transform 0.5s, z-index 0.5s 0.25s;
 }
 
 .carta:hover .delante{
     z-index: 0;
+    opacity: 1;
+}
+.girada .detras{
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    /* transition: transform 1s; */
+}
+.girada .delante{
+    z-index: 0;
     transform: rotateY(180deg);
+    /* transition: transform 1s z-index 1s; */
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
 }
