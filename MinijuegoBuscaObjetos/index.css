@@ -1,0 +1,110 @@
+main{
+    background: url(media/40spIkbEsTnWd.jpg!w700wp.jpg);
+    background-size: cover;
+    width: 70%;
+    height: 900px;
+    float: left;
+    overflow: hidden; 
+}
+aside{
+    width: 15%;
+    height: 900px;
+    background: green;
+    float: left;
+}
+.telon{
+    z-index: 2;
+    width: 101%;
+}
+.empieza{
+    transform: translateX(200%);
+    transition: all 1s;
+}
+main div {
+    position: relative;
+}
+main div *{
+    position: absolute;
+}
+.bolaNieve{
+    width: 4%;
+    top: 11vh;
+    left: 75%;
+    transform: rotate(-12deg);
+    opacity: 0.2;
+}
+.baston{
+    width: 3%;
+    top: 52vh;
+    left: 52%;
+    transform: rotate(10deg);
+    opacity: 0.5;
+}
+.bolas{
+    width: 7%;
+    top: 12vh;
+    left: 34%;
+    opacity: 0.7;
+}
+.calcetin{
+    width: 2%;
+    top: 23vh;
+    left: 32%;
+    opacity: 0.6;
+}
+.copo{
+    width: 7%;
+    top: 4vh;
+    left: 7%;
+    opacity: 0.2;
+}
+.galleta{
+    width: 3%;
+    top: 68vh;
+    left: 7%;
+}
+.reno{
+    width: 7%;
+    top: 62vh;
+    left: 89%;
+    transform: rotate(-25deg);
+    opacity: 0.6;
+}
+.malvaviscos{
+    width: 12%;
+    top: 65vh;
+    left: 17%;
+}
+.muneco_nieve{
+    width: 6%;
+    top: 44vh;
+    left: 3%;
+    transform: rotate(14deg);
+    opacity: 0.4;
+}
+.regalos{
+    width: 7%;
+    top: 70vh;
+    left: 73%;
+    opacity: 0.4;
+}
+.muerdago{
+    width: 7%;
+    top: 37vh;
+    left: 24%;
+    opacity: 0.4;
+}
+.acierto{
+    transform: scale(1.5) !important;
+    opacity: 0;
+    transition: transform 1s, opacity 1s ease-in 1s;
+}
+button{
+    margin-top: 140%;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 5%;
+}
+aside div{
+    text-align: center;
+}
