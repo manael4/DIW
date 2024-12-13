@@ -1,0 +1,42 @@
+.papelera{
+    position: relative;
+    width: 1000px;
+
+}
+.papelera *{
+    position: absolute;
+}
+.inferior{
+    top: 500px;
+    left: 700px;
+    z-index: 1;
+    width: 400px;
+}
+.superior{
+    top: 316px;
+    left: 657px;
+    width: 440px;
+    z-index: 2;
+}
+.pedal{
+    width: 100px;
+    top: 790px;
+    left: 680px;
+    z-index: 3;
+}
+.pedal:hover {
+    transform: translateY(20px);
+    transition: transform 0.5s;
+}
+.pedal:hover ~ .superior{
+    transform-origin: 83% 50%;
+    transform: rotate(28deg);
+    transition: transform 1s;
+}
+.papel{
+    width: 200px;
+    top: 700px;
+}
+.pedal:hover ~ .papel{
+    animation: h 1s;
+}
