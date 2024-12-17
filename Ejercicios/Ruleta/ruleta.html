@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flecha"></div>
+    <div class="ruleta">
+        <img src="descarga.png" alt="">
+    </div>
+    <button id="girar" onclick="girar()">¡A jugar!</button>
+    <script>
+            var a = 0;
+        function girar(){
+            let vueltas = Math.floor(Math.random()*5) + 1;
+            let grados = Math.floor(Math.random()*360) + 360 * vueltas;
+            a += grados;
+            document.documentElement.style.setProperty('--rotacion',`${a}deg`);
+        }
+    </script>
+</body>
+</html>
