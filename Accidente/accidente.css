@@ -1,0 +1,116 @@
+.contenedor{
+    background: url(fondo.jpg);
+    background-size: 100%;
+    width: 1085px;
+    height: 600px;
+}
+.contenedor{
+    position: relative;
+    overflow: hidden;
+}
+.contenedor *{
+    position: absolute;
+}
+.coche_cont{
+    position: relative;
+    top: 420px;
+    animation: mover 3s 1s linear forwards, 1s 3.5s linear forwards;
+    z-index: 1;
+}
+.coche{
+    position: absolute;
+    width: 30%;
+}
+.rueda1{
+    position: absolute;
+    width: 7.5%;
+    top: 100px;
+    left: 55px;
+    animation: ruedas 1s 1s linear backwards 3;
+    z-index: 2;
+}
+.rueda2{
+    position: absolute;
+    width: 7.5%;
+    top: 100px;
+    left: 219px;
+    animation: ruedas 1s 1s linear backwards 3;
+    z-index: 2;
+}
+.explosion,.fuego{
+    position: absolute;
+    opacity: 0;
+    width: 10%;
+    top: 385px;
+    left: 720px;
+}
+.explosion{
+    opacity: 0;
+    animation: explosion 0.5s 3.5s;
+    z-index: 2;
+}
+.fuego{
+    animation: fuego 0.5s 4s forwards;
+    z-index: 2;
+}
+.arbol{
+    position: relative;
+    top: 80px;
+    left: 600px;
+}
+.arbol_copa{
+    position: absolute;
+    width: 45%;
+    animation: girar 2s 4s forwards;
+}
+.arbol_tronco{
+    position: absolute;
+    width: 45%;
+}
+@keyframes mover {
+    0%{
+        left: 0;
+    }
+    85%{
+        transform: rotateY(0);
+        left: 490px;
+    }
+    100%{
+        left: 400px;
+        transform: rotateY(50deg);
+    }
+}
+@keyframes girar {
+    0%{
+        transform: translate(0);
+        z-index: 3;
+    }
+    100%{
+        transform: translate(-500px,200px) rotate(-90deg);
+        z-index: 3;
+    }
+}
+@keyframes explosion{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fuego{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes ruedas {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
