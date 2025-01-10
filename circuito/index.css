@@ -13,7 +13,7 @@
     rotate: 90deg;
     left: 660px;
     top: 130px;
-    
+    z-index: 4;
 }
 .kart:nth-of-type(1){
     animation: mover 20s 3s linear forwards 2;
@@ -39,7 +39,8 @@ div.semaforo{
     top: -850px;
     left: 500px;
     border-radius: 10px;
-    animation: luz 3s linear forwards;
+    animation: luz 3s linear;
+    opacity: 0;
 }
 div.luz{
     position: absolute;
@@ -54,17 +55,36 @@ div.luz{
 .luz:nth-of-type(1){
     top: 20px;
     left: 27.5px;
-    animation: luz 2.5s 0.5s linear forwards;
+    animation: luz 2.5s 0.5s linear;
 }
 .luz:nth-of-type(2){
     top: 130px;
     left: 27.5px;
-    animation: luz 1.5s 1.5s linear forwards;
+    animation: luz 1.5s 1.5s linear;
 }
 .luz:nth-of-type(3){
     top: 240px;
     left: 27.5px;
-    animation: luz 0.5s 2.5s linear forwards;
+    animation: luz 0.5s 2.5s linear;
+}
+.bandera{
+    position: absolute;
+    top: 125px;
+    left: 660px;
+    width: 90px;
+    height: 100px;
+    rotate: 90deg;
+    animation: finish 1s 23s forwards;
+    opacity: 0;
+}
+.gif{
+    position: absolute; 
+    top: 25px;
+    left: 655px;
+    width: 8%;
+    animation: finish 1s 23s forwards;
+    z-index: 5;
+    opacity: 0;
 }
 @keyframes mover {
     0%{
@@ -144,10 +164,15 @@ div.luz{
     0%{
         opacity: 1;
     }
-    99%{
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes finish {
+    0%{
         opacity: 1;
     }
     100%{
-        opacity: 0;
+        opacity: 1;
     }
 }
