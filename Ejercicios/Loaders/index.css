@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blanco{
+    border: 5px white solid;
+    border-bottom-color: transparent;
+    position: absolute;
+}
+.rojo{
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    position: absolute;
+    z-index: 1;
+}
+.a1{
+    top: 50px;
+    left: 100px;
+    animation: rotar 0.2s linear infinite;
+}
+.a2{
+    top: -150px;
+    left: 400px;
+    animation: rotar 2s linear infinite;
+}
+.a3{
+    top: -350px;
+    left: 700px;
+    animation: rotar 2s linear infinite;
+}
+.a3 .rojo{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+.a4{
+    top: -550px;
+    left: 1000px;
+    animation: rotar 2s linear infinite;
+}
+.a4 .blanco{
+    border: 5px white solid;
+    position: absolute;
+}
+.a4 .rojo{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+@keyframes rotar {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}

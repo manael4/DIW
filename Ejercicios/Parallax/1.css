@@ -1,0 +1,26 @@
+* {
+  font-family: Arial;
+}
+.cta-container {
+  background-image: url("descarga.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+  text-align: center;
+  padding: 60px;
+  height: 1500px;
+}
+.cta-text {
+  font-size: 24px;
+}
+.cta-button {
+  background-color: #ff5733; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón en blanco */
+  padding: 10px 20px; /* Relleno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 18px;
+  cursor: pointer; /* Cambio de cursor al pasar el ratón */
+}

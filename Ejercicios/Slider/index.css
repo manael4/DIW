@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor,.contenedor2{
+    position: relative;
+    display: flex;
+    margin-left: 35%;
+    width: 500px;
+    overflow: hidden;
+}
+.contenedor img,.contenedor2 img{
+    width: 500px;
+    height: 100%;
+}
+.contenedor div{
+    display: flex;
+    animation: slide 15s linear infinite;
+}
+.contenedor2 div{
+    display: flex;
+}
+#uno:checked ~ .contenedor2 div{
+    translate: 0px;
+}
+#dos:checked ~ .contenedor2 div{
+    translate: -500px;
+}
+#tres:checked ~ .contenedor2 div{
+    translate: -1000px;
+}
+@keyframes slide {
+    0%{
+        translate: 0;
+    }
+    30%{
+        translate: 0;
+    }
+    33%{
+        translate: -500px;
+    }
+    63%{
+        translate: -500px;
+    }
+    66%{
+        translate: -1000px;
+    }
+    96%{
+        translate: -1000px;
+    }
+    100%{
+        translate: 0;
+    }
+}

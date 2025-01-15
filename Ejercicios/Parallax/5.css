@@ -1,0 +1,37 @@
+* {
+  font-family: Arial;
+  color: white;
+}
+body {
+  background-color: black;
+}
+.parallax {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+  text-align: center;
+  padding: 60px;
+  height: 400px;
+}
+.div1 {
+  background-image: url("descarga.jpg");
+}
+.div2 {
+  background-image: url("descarga.jpg");
+}
+.div3 {
+  background-image: url("descarga.jpg");
+}
+.contenedor {
+  width: 100%;
+}
+.contexto {
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 50px;
+}
+h1{
+    text-align: center;
+}
