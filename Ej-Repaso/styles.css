@@ -1,0 +1,152 @@
+#sky{
+    background-color: darkblue;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    animation: sky 10s infinite linear;
+}
+
+#sun{
+    position: absolute;
+    background-color: rgba(255, 196, 0, 0.842);
+    border-radius: 50px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    right: 0px;
+    animation: sol 10s infinite;
+}
+
+.cloud-1::after{
+    content: "";
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 100px;
+    left: -800px;
+    border-radius: 25px;
+    border: solid 1px red;
+    animation: nubes 10s infinite linear;
+}
+
+.cloud-1::before{
+    content: "";
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 110px;
+    left: -810px;
+    border-radius: 25px;
+    border: solid 1px red;
+    animation: nubes 10s infinite linear;
+}
+
+.cloud-2::after{
+    content: "";
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 200px;
+    left: -500px;
+    border-radius: 25px;
+    border: solid 1px red;
+    animation: nubes 10s infinite linear;
+}
+
+.cloud-2::before{
+    content: "";
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 210px;
+    left: -510px;
+    border-radius: 25px;
+    border: solid 1px red;
+    animation: nubes 10s infinite linear;
+}
+
+.cloud-3::before{
+    content: "";
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 210px;
+    left: -1110px;
+    border-radius: 25px;
+    border: solid 1px red;
+    animation: nubes 10s infinite linear;
+}
+
+.cloud-3::after{
+    content: "";
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 200px;
+    left: -1100px;
+    border-radius: 25px;
+    border: solid 1px red;
+    animation: nubes 10s infinite linear;
+}
+
+@keyframes nubes {
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(3000px);
+    }
+}
+
+@keyframes sol {
+    0%{
+        transform: scale(10%) translate(0);
+    }
+    25%{
+        transform: scale(1) translate(-900px, -500px);
+    }
+    45%{
+        transform: translate(-1800px, 0px) scale(10%);
+    }
+    55%{
+        transform: translate(-1800px, 0px) scale(10%);
+    }
+    75%{
+        transform: scale(1) translate(-900px, -500px);
+    }
+    100%{
+        transform: scale(10%) translate(0);
+    }
+}
+
+@keyframes sky {
+    0%{
+        background-color: darkblue;
+    }
+    25%{
+        background-color: skyblue;
+    }
+    50%{
+        background-color: darkblue;
+    }
+    75%{
+        background-color: skyblue;
+    }
+    100%{
+        background-color: darkblue;
+    }
+}
