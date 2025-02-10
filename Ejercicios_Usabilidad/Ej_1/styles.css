@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Georgia', Times, serif;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: 10px;
+}
+.content-box {
+    background-color: #c5c5c5;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px 0;
+}
+a {
+    color: #0000ff;
+}

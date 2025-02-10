@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="imgs/gengar.png" alt="Gengar">
+      <div class="text">Gengar</div>
+      <div class="pokedex-entry">Gengar es un Pokémon de tipo Fantasma y Veneno. Es conocido por ser travieso, se esconde en las sombras y puede absorber el calor de su alrededor.</div>
+    </div>
+    <div class="slide fade">
+      <img src="imgs/rotom.png" alt="Rotom">
+      <div class="text">Rotom</div>
+      <div class="pokedex-entry">Rotom es un Pokémon de tipo Eléctrico y Fantasma. Es capaz de poseer electrodomésticos y cambiar de forma para adaptarse a su entorno.</div>
+    </div>
+    <div class="slide fade">
+      <img src="imgs/snorlax.png" alt="Snorlax">
+      <div class="text">Snorlax</div>
+      <div class="pokedex-entry">Snorlax es un Pokémon de tipo Normal. Pasa la mayor parte del tiempo durmiendo, pero cuando despierta, come enormes cantidades de comida.</div>
+    </div>
+    <div class="slide fade">
+      <img src="imgs/bidoof.png" alt="Bidoof">
+      <div class="text">Bidoof</div>
+      <div class="pokedex-entry">Bidoof es un Pokémon de tipo Normal. Es conocido por su apariencia tonta y sus hábitos constructores, ya que construye diques y presas en el agua.</div>
+    </div>
+    <div class="slide fade">
+      <img src="imgs/Pikachu.png" alt="Pikachu">
+      <div class="text">Pikachu</div>
+      <div class="pokedex-entry">Pikachu es un Pokémon de tipo Eléctrico y es la mascota oficial de la franquicia. Puede generar electricidad almacenada en sus mejillas y liberarla en poderosos rayos.</div>
+    </div>
+    <div class="slide fade">
+      <img src="imgs/piplup.png" alt="piplup">
+      <div class="text">Piplup</div>
+      <div class="pokedex-entry">Piplup es un Pokémon de tipo Agua. Es valiente y tiene una gran personalidad, aunque sufre con el frío. Se caracteriza por su plumaje azul y su actitud firme.</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Puntos dentro del contenedor -->
+    <div class="dots-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+
+</html>
