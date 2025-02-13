@@ -1,0 +1,27 @@
+.carousel-inner,.carousel-item, .carousel-item img{
+    height: 300px;
+    width: 100%;
+}
+.inner{
+    position: relative;
+}
+.tituloHero{
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.tituloHero h1{
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    font-size: xx-large;
+}
+.carousel-control-next,.carousel-control-prev{
+    z-index: 6;
+}
+.backgroundColor{
+    background-color: rgb(153, 2, 52);
+}
+.colorLink{
+    color: white;
+}

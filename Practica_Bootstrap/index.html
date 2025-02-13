@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Excelencia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark backgroundColor">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo.png" alt="Logo Universidad" width="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link colorLink" href="cursos.html">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link colorLink" href="contacto.html">Contacto</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    
+        <div id="carouselExample" class="carousel slide d-sm-block d-none" data-bs-ride="carousel">
+            <div class="tituloHero w-100 h-100 position-absolute bg-dark bg-gradient bg-opacity-50" >
+                <h1 class="align-middle position-absolute text-center text-white p-3 mb-5 ">Bienvenidos a Universidad Excelencia</h1>
+            </div>
+            <div class="carousel-inner inner">
+                <div class="carousel-item active">
+                    <img src="imgs/1.jpg" class="d-block w-100" alt="Campus 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/2.jpg" class="d-block w-100" alt="Campus 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/3.jpg" class="d-block w-100" alt="Campus 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/4.jpg" class="d-block w-100" alt="Campus 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/5.jpg" class="d-block w-100" alt="Campus 5">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div> 
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/ingenieria.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Facultad de Ingeniería</h5>
+                        <p class="card-text">Programas de ingeniería con enfoque en innovación y tecnología.</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/sociales.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Facultad de Ciencias Sociales</h5>
+                        <p class="card-text">Formación en humanidades, derecho y ciencias políticas.</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/medicina.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Facultad de Medicina</h5>
+                        <p class="card-text">Excelencia en educación médica y formación en salud.</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="backgroundColor text-white text-center py-3 fixed-bottom">
+        &copy; 2025 Ángel Barrón Martínez. Todos los derechos reservados.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
